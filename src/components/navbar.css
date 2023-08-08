@@ -1,0 +1,28 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+
+body {
+    background-color: black;
+}
+nav{
+    background-color: black;
+    color: #F6C90E;
+    font-weight: 520;
+    border-bottom: solid 2px #735F32;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+li{
+    padding:3vh 1.5vw;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 500px){
+    li {
+        padding: 1.8vh 1vw;
+        font-size: 0.8rem;
+    }
+}

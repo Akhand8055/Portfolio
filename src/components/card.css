@@ -1,0 +1,27 @@
+
+#image{
+    width: 400px;
+    padding: 5px;
+    border-radius: 13px;
+}
+#content{
+    width: 60vw;
+    padding: 5px;
+}
+#profile{
+    display: flex;
+    justify-content: space-evenly;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F7F7F7;
+    border-radius: 25px;
+    height: 60vh;
+    margin: 5vh 0vw;
+    color: #c58e36;
+}
+#card h2{
+    text-align: center;
+}

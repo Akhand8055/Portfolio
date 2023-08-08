@@ -1,0 +1,40 @@
+#description {
+    display: flex;
+    justify-content: space-between;
+    color: #F6C90E;
+    margin: 10vh 5%;
+    line-height: 60px;
+    font-size: 1.5rem;
+}
+
+#description img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+#profileSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+#codingId{
+    display: flex;
+    justify-content: space-evenly;
+}
+#codingId div{
+    padding: 0 4px;
+}
+#codingId button{
+    background-color: #F6C90E;
+    color: black;
+    border-radius: 30px;
+    height: 60px;
+    width: 120px;
+    padding: auto;
+}
+#codingId img{
+    width: 50px;
+    border-radius: 50px;
+}

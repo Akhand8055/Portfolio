@@ -1,12 +1,10 @@
 * {margin: 0;padding: 0;box-sizing: border-box;}
 
-body {
-    background-color: black;
-}
 #navbar{
     position: fixed;
     width: 100%;
     top: 0;
+    opacity: 0.8;
 }
 nav{
     background-color: black;

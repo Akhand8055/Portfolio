@@ -1,8 +1,12 @@
 .heading{
+    text-decoration: underline;
     display: flex;
-    justify-content: center;
-    margin-top: 5vh;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 10vh;
     color: #F6C90E;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 #hire{
     display: block;
@@ -13,4 +17,19 @@
     letter-spacing: 2px;
     background-color: #F6C90E;
     font-weight: 600;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(50%);
+}
+body{
+    background-color: black;
 }

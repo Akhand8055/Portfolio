@@ -1,6 +1,11 @@
 
-#image{
+#image1{
     width: 400px;
+    padding: 5px;
+    border-radius: 13px;
+}
+#image2{
+    height: 200px;
     padding: 5px;
     border-radius: 13px;
 }
@@ -24,4 +29,5 @@
 }
 #card h2{
     text-align: center;
+    font-weight: 1000;
 }

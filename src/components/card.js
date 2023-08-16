@@ -8,7 +8,8 @@ function Card(props) {
       <div id='card'>
         <h2>{props.heading}</h2>
         <div id='profile'>
-          <img id='image' src={props.img} />
+          {props.orientation=="horizontal" ? <img id='image1' src={props.img} /> : <img id='image2' src={props.img}/>}
+          
           <p id='content'>{props.content}</p>
         </div>
       </div>
@@ -20,7 +21,7 @@ function Card(props) {
         <h2>{props.heading}</h2>
         <div id='profile'>
           <p id='content'>{props.content}</p>
-          <img id='image' src={props.img} />
+          {props.orientation=="horizontal" ? <img id='image1' src={props.img} /> : <img id='image2' src={props.img}/>}
         </div>
       </div>
     )

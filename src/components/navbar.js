@@ -3,14 +3,14 @@ import './navbar.css'
 
 function Navbar() {
   return (
-    <div>
+    <div id='navbar'>
         <nav>
             <ul>
-            <li>About me</li>
-            <li>Projects</li>
-            <li>Skills</li>
-            <li>Education</li>
-            <li>Contact me</li>
+            <li><a href='#description'>About me</a></li>
+            <li><a href='#projects'>Projects</a></li>
+            <li><a href='#skillset'>Skills</a></li>
+            <li><a href='#education'>Education</a></li>
+            <li><a href='#contactMe'>Contact me</a></li>
             </ul>
         </nav>
     </div>

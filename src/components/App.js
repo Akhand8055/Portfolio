@@ -16,16 +16,17 @@ function App() {
     <div className="App">
       <Navbar />
       <Description />
-      <h1 className='heading'>Projects</h1>
+      <button id='hire'>Hire Me !</button>
+      <h1 className='heading' id='projects'>Projects</h1>
       <Card img={AGmovies} content={content} value="right" heading="AGmovies"/>
       <Card img={portfolio} content={content} value="left" heading="Portfolio"/>
       <Card img={digitalNotes} content={content} value="right" heading="Digital-Notes"/>
-      <h1 className='heading'>Skills</h1>
+      <h1 className='heading' id='skillset'>Skills</h1>
       <Skill />
-      <h1 className='heading'>Education</h1>
+      <h1 className='heading' id='education'>Education</h1>
       <Card img={AGmovies} content={content} value="left" heading="ABV-IIITM"/>
       <Card img={AGmovies} content={content} value="right" heading="Boys' High School & College"/>
-      <h1 className='heading'>Contact me</h1>
+      <h1 className='heading' id='contactMe'>Contact me</h1>
       <Contact />
       <Footer />
     </div>

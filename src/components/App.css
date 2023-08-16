@@ -1,8 +1,16 @@
-* {margin: 0; padding: 0; box-sizing: border-box;}
-
 .heading{
     display: flex;
     justify-content: center;
     margin-top: 5vh;
     color: #F6C90E;
+}
+#hire{
+    display: block;
+    width: fit-content;
+    margin: 80px auto;
+    padding: 15px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    background-color: #F6C90E;
+    font-weight: 600;
 }

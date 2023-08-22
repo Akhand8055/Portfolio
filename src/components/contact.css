@@ -17,18 +17,12 @@
 #codingId{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 #codingId div{
     padding: 0 4px;
 }
-#codingId button{
-    background-color: #F6C90E;
-    color: black;
-    border-radius: 30px;
-    width: 120px;
-    height: 100%;
-    padding: auto;
-}
+
 #codingId img{
     width: 50px;
     border-radius: 50px;

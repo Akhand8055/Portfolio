@@ -19,7 +19,20 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 250px;
+    height: fit-content;
+}
+#resumeButton{
+    line-height: normal;
+    background-color: #F6C90E;
+    color: black;
+    border-radius: 30px;
+    width: 400px;
+    height: fit-content;
+    padding: 8px 0;
+    margin-top: 10px;
+}
+#varyingText{
+    color: #c58e36;
 }
 
 
@@ -27,10 +40,16 @@
     #profileImage{
         width: 350px;
     }
+    #resumeButton {
+        width: 350px;
+    }
 }
 
 @media screen and (max-width: 500px){
     #profileImage{
+        width: 300px;
+    }
+    #resumeButton {
         width: 300px;
     }
 }

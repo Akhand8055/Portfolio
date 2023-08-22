@@ -15,7 +15,6 @@ function Contact() {
       <div id='contactImage'>
         <img src={img} />
         <div id='codingId'>
-          <div><button>Resume</button></div>
           <div><a target="_blank" href='https://leetcode.com/apm2002/'><img src={lc} /></a></div>
           <div><a target="_blank" href='https://auth.geeksforgeeks.org/user/apm2002'><img src={gfg} /></a></div>
           <div><a target="_blank" href='https://github.com/Akhand8055'><img src={github} /></a></div>

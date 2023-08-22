@@ -31,13 +31,20 @@
 		transform:         translateY(0)
 	}
 	40% {
-		-webkit-transform: translateY(-30px);
-		-ms-transform:     translateY(-30px);
-		transform:         translateY(-30px)
+		-webkit-transform: translateY(-40px);
+		-ms-transform:     translateY(-40px);
+		transform:         translateY(-40px)
 	}
 	60% {
-		-webkit-transform: translateY(-15px);
-		-ms-transform:     translateY(-15px);
-		transform:         translateY(-15px)
+		-webkit-transform: translateY(-20px);
+		-ms-transform:     translateY(-20px);
+		transform:         translateY(-20px)
 	}
+}
+
+@media screen and (max-width: 500px) {
+    #elements img{
+        width: 80px;
+        height: 82px;
+    }
 }

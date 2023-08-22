@@ -10,7 +10,8 @@ import digitalNotes from '../images/digitalNotes.png';
 import portfolio from '../images/Portfolio.png';
 import bhs from '../images/bhsLogo.png';
 import iiitm from '../images/iiitmLogo.jpg';
-import vid from "../images/vid.mp4"
+import vid from "../images/vid.mp4";
+import { useEffect } from 'react';
 
 let content1 = "A fully responsive MERN stack web application with full fledged authentication and authorization using JSON Web Token. Here users can vote movies in a contest which runs 24 hrs everyday. Users can search for movies, watch trailer, see the movies nominated by them and also the leaderboard for current contest. After every 24 hours, a new contest begins with a new leaderboard."
 let content2 = "A fully responsive React based website which consists of only frontend portion. This is a Portfolio website which I use to demonstrate my Projects, Skills and Education. This website can be useful for the recruiters to look into my hard work and get a glimpse about me."
@@ -19,6 +20,7 @@ let content4 = "Currently I am a student at Atal Bihari Vajpayee Indian Institut
 let content5 = "I have completed my Secondary and Senior Secondary education from Boys' High School and College, Prayagraj. This school is affiliated to ICSE and ISC Board. Here I achieved excellence in Academics with securing 93% in class X Board Exams and 89.6% in class XII Board Exams. I also participated in many sports and extra curricular activities such as Badminton, Swimming, Elocutions, Creative Writing Competitions and many more."
 
 function App() {
+  
   return (
     <div className="App">
       <div>
@@ -27,7 +29,7 @@ function App() {
         </video>
         <Navbar />
         <Description />
-        <button id='hire'>Hire Me !</button>
+        <a href = "mailto: akhandmall8055@gmail.com"><button id='hire'>Hire Me !</button></a>
       </div>
       <h1 className='heading' id='projects'>Projects</h1>
       <Card img={AGmovies} content={content1} value="right" heading="AGmovies" orientation="horizontal" />

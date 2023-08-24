@@ -30,6 +30,12 @@
     z-index: -1;
     filter: brightness(70%);
 }
+.bold{
+    letter-spacing: 2px;
+    font-weight: 950;
+    text-decoration: underline !important;
+    color: #F6C90E;
+}
 body{
     background-color: black;
 }

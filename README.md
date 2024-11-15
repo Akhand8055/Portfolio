@@ -1,7 +1,3 @@
-# Project Name
-
-**Live Link:** [https://akhand-portfolio.onrender.com/](https://akhand-portfolio.onrender.com/)
-
 ## Running the Project Locally
 
 To run this project on your local machine:
